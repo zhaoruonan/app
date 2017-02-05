@@ -89,7 +89,7 @@ html, body {
     position: absolute;
     width: 6.4rem;
     height: 9.72rem;
-    margin: 0.82rem auto;
+    /*margin: 0.82rem auto;*/
     text-align: center;
 }
 
@@ -733,7 +733,7 @@ solid transparent; border-right: 0.2rem solid transparent; border-bottom: 0.2rem
     letter-spacing: 0.1em;
 }
 .slide6 ul li:nth-child(4) img{
-    width: 2.86rem; height: 2.86rem; left: 1.76rem; top: 3.2rem;
+    width: 2.86rem; height: 2.86rem; left: 1.76rem; top: 3.2rem;opacity: 0;
 }
 .slide6 ul li:nth-child(5) span{
     top: 6.16rem;
@@ -762,7 +762,10 @@ solid transparent; border-right: 0.2rem solid transparent; border-bottom: 0.2rem
 
 
 /*page6*/
-#page6 ul li:nth-child(4) img{ animation: flipInY 1s ease 0.8s 1 both;}
+#page6 ul li:nth-child(4) img{
+    -webkit-animation: flipInY 1s ease 0.8s 1 both;
+    animation: flipInY 1s ease 0.8s 1 both;
+}
 #page6 ul li:nth-child(5) span{ animation: fadeInDown 1s ease 1.2s 1 both;}
 #page6 ul li:nth-child(6) img{ animation: lightSpeedIn 1s ease 1.4s 1 both;}
 #page6 ul li:nth-child(7) span{ animation: fadeIn 2s ease 2s 1 both;}
