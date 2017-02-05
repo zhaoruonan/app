@@ -78,7 +78,7 @@ html, body {
 }
 
 .swiper-slide img, .swiper-slide span {
-    /*opacity: 0;*/
+    opacity: 0;
 }
 
 .swiper-slide ul li,.swiper-slide img, .swiper-slide span {
