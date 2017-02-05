@@ -78,7 +78,7 @@ html, body {
 }
 
 .swiper-slide img, .swiper-slide span {
-    opacity: 0;
+    /*opacity: 0;*/
 }
 
 .swiper-slide ul li,.swiper-slide img, .swiper-slide span {
@@ -733,7 +733,8 @@ solid transparent; border-right: 0.2rem solid transparent; border-bottom: 0.2rem
     letter-spacing: 0.1em;
 }
 .slide6 ul li:nth-child(4) img{
-    width: 2.86rem; height: 2.86rem; left: 1.76rem; top: 3.2rem;opacity: 0;
+    width: 2.86rem; height: 2.86rem; left: 1.76rem; top: 3.2rem;
+    /*opacity: 0;*/
 }
 .slide6 ul li:nth-child(5) span{
     top: 6.16rem;
